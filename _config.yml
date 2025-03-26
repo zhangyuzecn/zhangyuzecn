@@ -1,1 +1,70 @@
+# 站点的基本信息
+title: 我的个人博客
+email: your-email@example.com
+description: 这是我的个人博客，用于分享技术文章、项目经验等内容。
+baseurl: "" # 如果没有自定义域名，保持为空
+url: "https://your-username.github.io" # 替换为你的 GitHub Pages URL
+
+# 设置主题为 minima，并进行一些自定义设置
 theme: minima
+
+# 主题相关设置
+minima:
+  # 修改博客头部显示的图片
+  header:
+    image: "/assets/images/blog-header.jpg" # 可选，上传一个图片到 assets/images 目录
+    image_alt: "个人博客的头部图片"
+  
+  # 修改博客的自定义 favicon 图标
+  favicon: "/assets/images/favicon.ico" # 上传一个 32x32 的图标
+  
+  # 修改页面的背景色
+  background_color: "#f5f5f5" # 页面背景色
+  
+  # 自定义字体设置（你可以选择其他字体或调整）
+  typography:
+    body_font: "Arial, sans-serif"
+    heading_font: "Georgia, serif"
+  
+  # 博客的侧边栏设置
+  sidebar:
+    enabled: true
+    items:
+      - text: "关于我"
+        url: "/about/"
+      - text: "我的项目"
+        url: "/projects/"
+      - text: "联系我"
+        url: "/contact/"
+  
+  # 自定义菜单栏链接（顶部导航栏）
+  menu:
+    - name: "首页"
+      url: "/"
+    - name: "博客"
+      url: "/blog/"
+    - name: "关于我"
+      url: "/about/"
+    - name: "项目"
+      url: "/projects/"
+
+# GitHub 项目的 repository 名称， 如果是直接使用 GitHub Pages ，则设置为空
+repository: your-username.github.io
+
+# 其他设置
+paginate: 5 # 每页显示的文章数量
+
+# 社交媒体链接，替换为你的真实链接
+social_links:
+  twitter: "https://twitter.com/your-username"
+  github: "https://github.com/your-username"
+  linkedin: "https://linkedin.com/in/your-username"
+  
+# 自定义插件或额外的功能
+plugins:
+  - jekyll-feed # 启用 RSS feed 生成
+  - jekyll-seo-tag # 增强 SEO 支持
+  
+# 日志和调试模式设置
+show_excerpts: true
+markdown: kramdown # 设置 markdown 解析器
