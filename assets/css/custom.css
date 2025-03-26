@@ -1,0 +1,125 @@
+/* custom.css */
+
+/* 页面背景色 */
+body {
+  background-color: #f5f5f5;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* 导航栏美化 */
+header {
+  background-color: #4CAF50; /* 更改为你喜欢的颜色 */
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: white;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2em;
+  color: white;
+  font-style: italic;
+}
+
+/* 菜单栏 */
+nav {
+  background-color: #333;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  display: inline-block;
+  font-size: 1.1em;
+}
+
+nav a:hover {
+  background-color: #575757;
+}
+
+/* 侧边栏样式 */
+aside {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+aside h3 {
+  font-size: 1.5em;
+  color: #4CAF50;
+  margin-bottom: 15px;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside ul li {
+  margin-bottom: 10px;
+}
+
+aside ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+aside ul li a:hover {
+  color: #4CAF50;
+}
+
+/* 文章部分 */
+article {
+  background-color: white;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+article h2 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+article p {
+  font-size: 1.1em;
+  color: #666;
+}
+
+article a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+article a:hover {
+  color: #333;
+}
+
+/* 页脚样式 */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1em;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
